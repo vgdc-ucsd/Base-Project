@@ -28,36 +28,58 @@ public class CollisionEvent : EventComponent {
 	[SerializeField]
 	private Action[] exitActions;
 
-	// More generic version of TriggerActions()
-	void TriggerActions( Action[] actionList ) {
-		foreach (Action action in actionList) {
-			action.PerformAction();
+	public string m_TargetTag = null;
+
+	void OnCollisionEnter( Collision collision ) {
+		GameObject other = collision.gameObject;
+		if (CheckCollision(other)) {
+			TriggerActions( actions, other );
 		}
 	}
 
-	// TODO: How are we planning on passing parameters into Actions cleanly?
-
-	void OnCollisionEnter( Collision collision ) {
-		TriggerActions( actions );
+	/** Called by CharacterControllerCollision to handle collision with Character Controllers */
+	public void OnCharacterCollisionEnter(GameObject other) {
+		if (CheckCollision(other)) {
+			TriggerActions( actions, other );
+        }
 	}
 
 	void OnCollisionStay( Collision collision ) {
-		TriggerActions( stayActions );
+		GameObject other = collision.gameObject;
+		if (CheckCollision(other)) {
+			TriggerActions( stayActions, other );
+		}
 	}
 
 	void OnCollisionExit( Collision collision ) {
-		TriggerActions( exitActions );
+		GameObject other = collision.gameObject;
+		if (CheckCollision(other)) {
+			TriggerActions( exitActions, other );
+		}
 	}
 
 	void OnTriggerEnter( Collider collider ) {
-		TriggerActions( actions );
+		GameObject other = collider.gameObject;
+		if (CheckCollision(other)) {
+			TriggerActions( actions, other );
+		}
 	}
 
 	void OnTriggerStay( Collider collider ) {
-		TriggerActions( stayActions );
+		GameObject other = collider.gameObject;
+		if (CheckCollision(other)) {
+			TriggerActions( stayActions, other );
+		}
 	}
 
 	void OnTriggerExit( Collider collider ) {
-		TriggerActions( exitActions );
+		GameObject other = collider.gameObject;
+		if (CheckCollision(other)) {
+			TriggerActions( exitActions, other );
+		}
+	}
+
+	private bool CheckCollision(GameObject other) {
+		return (m_TargetTag == null || m_TargetTag == "" || m_TargetTag == other.tag);
 	}
 }

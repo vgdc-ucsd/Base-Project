@@ -40,7 +40,7 @@ public class PlaySound : Action {
 	// called by many EventComponents when events are detected. We want
 	// to override our original definition here so that we can access
 	// our audio source and clip data, and perform our own logic.
-	override public void PerformAction() {
+	override public void PerformAction(GameObject notUsed) {
 
 		// Don't play the sound over itself
 		if ( !audioSource.isPlaying ) {

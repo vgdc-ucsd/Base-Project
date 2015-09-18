@@ -44,12 +44,17 @@ public class EventComponent : MonoBehaviour {
 	 * Actions associated with this EventComponent will be performed.
 	 */
 	// TODO: Maybe call this PerformActions?
-	protected void TriggerActions() {
+	protected void TriggerActions(Action[] actionArray, GameObject other = null) {
 		// For every action in the list, perform the action and proceed
-		foreach ( Action action in this.actions ) {
+		foreach ( Action action in actionArray ) {
 			if ( action != null )
-				action.PerformAction();
+				action.PerformAction(other);
 		}
+	}
+
+	protected void TriggerActions(GameObject other = null) {
+		// For every action in the list, perform the action and proceed
+		TriggerActions (this.actions, other);
 	}
 
 }

@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: 379a83a3f31dab34eac40064c6de023a
+timeCreated: 1442292320
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: default
+    100002: //RootNode
+    100004: Cylinder.021_Mesh.032
+    100006: Cylinder.023_Mesh.036
+    100008: Cylinder.024_Mesh.037
+    100010: Cylinder.025_Mesh.038
+    100012: Cylinder.026_Mesh.040
+    100014: Cylinder.027_Mesh.042
+    100016: Cylinder.028_Mesh.044
+    100018: Cylinder.029_Mesh.046
+    100020: Cylinder.030_Mesh.048
+    100022: Cylinder.031_Mesh.050
+    100024: Cylinder.032_Mesh.052
+    100026: Cylinder.033_Mesh.054
+    100028: Cylinder.034_Mesh.056
+    100030: Cylinder.036_Mesh.060
+    100032: Cylinder.037_Mesh.061
+    100034: Cylinder.038_Mesh.062
+    100036: Cylinder.039_Mesh.063
+    100038: Cylinder.040_Mesh.065
+    100040: Cylinder.041_Mesh.067
+    100042: Cylinder.042_Mesh.069
+    100044: Cylinder.043_Mesh.071
+    100046: Cylinder.044_Mesh.073
+    100048: Cylinder.045_Mesh.075
+    100050: Cylinder.046_Mesh.077
+    100052: Cylinder.047_Mesh.079
+    400000: default
+    400002: //RootNode
+    400004: Cylinder.021_Mesh.032
+    400006: Cylinder.023_Mesh.036
+    400008: Cylinder.024_Mesh.037
+    400010: Cylinder.025_Mesh.038
+    400012: Cylinder.026_Mesh.040
+    400014: Cylinder.027_Mesh.042
+    400016: Cylinder.028_Mesh.044
+    400018: Cylinder.029_Mesh.046
+    400020: Cylinder.030_Mesh.048
+    400022: Cylinder.031_Mesh.050
+    400024: Cylinder.032_Mesh.052
+    400026: Cylinder.033_Mesh.054
+    400028: Cylinder.034_Mesh.056
+    400030: Cylinder.036_Mesh.060
+    400032: Cylinder.037_Mesh.061
+    400034: Cylinder.038_Mesh.062
+    400036: Cylinder.039_Mesh.063
+    400038: Cylinder.040_Mesh.065
+    400040: Cylinder.041_Mesh.067
+    400042: Cylinder.042_Mesh.069
+    400044: Cylinder.043_Mesh.071
+    400046: Cylinder.044_Mesh.073
+    400048: Cylinder.045_Mesh.075
+    400050: Cylinder.046_Mesh.077
+    400052: Cylinder.047_Mesh.079
+    2300000: default
+    2300002: Cylinder.021_Mesh.032
+    2300004: Cylinder.023_Mesh.036
+    2300006: Cylinder.024_Mesh.037
+    2300008: Cylinder.025_Mesh.038
+    2300010: Cylinder.026_Mesh.040
+    2300012: Cylinder.027_Mesh.042
+    2300014: Cylinder.028_Mesh.044
+    2300016: Cylinder.029_Mesh.046
+    2300018: Cylinder.030_Mesh.048
+    2300020: Cylinder.031_Mesh.050
+    2300022: Cylinder.032_Mesh.052
+    2300024: Cylinder.033_Mesh.054
+    2300026: Cylinder.034_Mesh.056
+    2300028: Cylinder.036_Mesh.060
+    2300030: Cylinder.037_Mesh.061
+    2300032: Cylinder.038_Mesh.062
+    2300034: Cylinder.039_Mesh.063
+    2300036: Cylinder.040_Mesh.065
+    2300038: Cylinder.041_Mesh.067
+    2300040: Cylinder.042_Mesh.069
+    2300042: Cylinder.043_Mesh.071
+    2300044: Cylinder.044_Mesh.073
+    2300046: Cylinder.045_Mesh.075
+    2300048: Cylinder.046_Mesh.077
+    2300050: Cylinder.047_Mesh.079
+    3300000: default
+    3300002: Cylinder.021_Mesh.032
+    3300004: Cylinder.023_Mesh.036
+    3300006: Cylinder.024_Mesh.037
+    3300008: Cylinder.025_Mesh.038
+    3300010: Cylinder.026_Mesh.040
+    3300012: Cylinder.027_Mesh.042
+    3300014: Cylinder.028_Mesh.044
+    3300016: Cylinder.029_Mesh.046
+    3300018: Cylinder.030_Mesh.048
+    3300020: Cylinder.031_Mesh.050
+    3300022: Cylinder.032_Mesh.052
+    3300024: Cylinder.033_Mesh.054
+    3300026: Cylinder.034_Mesh.056
+    3300028: Cylinder.036_Mesh.060
+    3300030: Cylinder.037_Mesh.061
+    3300032: Cylinder.038_Mesh.062
+    3300034: Cylinder.039_Mesh.063
+    3300036: Cylinder.040_Mesh.065
+    3300038: Cylinder.041_Mesh.067
+    3300040: Cylinder.042_Mesh.069
+    3300042: Cylinder.043_Mesh.071
+    3300044: Cylinder.044_Mesh.073
+    3300046: Cylinder.045_Mesh.075
+    3300048: Cylinder.046_Mesh.077
+    3300050: Cylinder.047_Mesh.079
+    4300000: default
+    4300002: Cylinder.021_Mesh.032
+    4300004: Cylinder.023_Mesh.036
+    4300006: Cylinder.024_Mesh.037
+    4300008: Cylinder.025_Mesh.038
+    4300010: Cylinder.026_Mesh.040
+    4300012: Cylinder.027_Mesh.042
+    4300014: Cylinder.028_Mesh.044
+    4300016: Cylinder.029_Mesh.046
+    4300018: Cylinder.030_Mesh.048
+    4300020: Cylinder.031_Mesh.050
+    4300022: Cylinder.032_Mesh.052
+    4300024: Cylinder.033_Mesh.054
+    4300026: Cylinder.034_Mesh.056
+    4300028: Cylinder.036_Mesh.060
+    4300030: Cylinder.037_Mesh.061
+    4300032: Cylinder.038_Mesh.062
+    4300034: Cylinder.039_Mesh.063
+    4300036: Cylinder.040_Mesh.065
+    4300038: Cylinder.041_Mesh.067
+    4300040: Cylinder.042_Mesh.069
+    4300042: Cylinder.043_Mesh.071
+    4300044: Cylinder.044_Mesh.073
+    4300046: Cylinder.045_Mesh.075
+    4300048: Cylinder.046_Mesh.077
+    4300050: Cylinder.047_Mesh.079
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

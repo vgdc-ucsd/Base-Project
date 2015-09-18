@@ -14,7 +14,7 @@ using UnityEngine;
 using System.Collections;
 
 public class Action : MonoBehaviour {
-	virtual public void PerformAction() {
+	virtual public void PerformAction(GameObject other) {
 		// This is where the subclasses do things.
 	}
 }
